@@ -43,7 +43,9 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>{"Jeri Loucura"}</HeroH1>
 
-        <HeroP>{"Vem com nois"}</HeroP>
+        <HeroP>
+          {"Oportunidade para quem está planejando sair das grandes cidades! "}
+        </HeroP>
 
         <motion.div
           whileHover={{
