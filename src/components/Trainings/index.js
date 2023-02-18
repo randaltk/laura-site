@@ -42,11 +42,11 @@ function Trainings() {
           <div className="card-6" onClick={onHover6}>
             {hover6 ? (
               <div className="card__face-6 card__face--back-6">
-                <ServicesH2>"trainings</ServicesH2>
+                <ServicesH2>{"traings"}</ServicesH2>
               </div>
             ) : (
               <div className="card__face-6 card__face--front-6">
-                <ServicesH12>trainings.trai</ServicesH12>
+                <ServicesH12>{"traings"}</ServicesH12>
               </div>
             )}
           </div>
