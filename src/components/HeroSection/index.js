@@ -34,14 +34,16 @@ function HeroSection() {
       <HeroBg>
         <VideoBg
           alt="heroimage"
-          src={process.env.PUBLIC_URL + "hero-img.webp"}
+          src={
+            "https://res.cloudinary.com/aguadeira/image/upload/v1676744550/jeri/WhatsApp_Image_2023-01-29_at_08.44.57_3_lhwcco.jpg"
+          }
         />
       </HeroBg>
 
       <HeroContent>
-        <HeroH1>{"hero.fines"}</HeroH1>
+        <HeroH1>{"Jeri Loucura"}</HeroH1>
 
-        <HeroP>{"hero.lifes"}</HeroP>
+        <HeroP>{"Vem com nois"}</HeroP>
 
         <motion.div
           whileHover={{
@@ -60,7 +62,7 @@ function HeroSection() {
               onMouseEnter={onHover}
               onMouseLeave={onHover}
             >
-              {"hero.inspection"}
+              {"Bora ver ?"}
               {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
