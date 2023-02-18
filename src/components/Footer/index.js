@@ -46,14 +46,14 @@ function Footer() {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
-                href="https://www.facebook.com/Nolan-Engenharia-Inspe%C3%A7%C3%B5es-101094468655978/"
+                href="https://www.facebook.com"
                 target="_blank"
                 aria-label="Facebook"
               >
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                href="https://www.instagram.com/geovanecarvalho94/"
+                href="https://www.instagram.com"
                 target="_blank"
                 aria-label="Instagram"
               >
@@ -61,7 +61,7 @@ function Footer() {
               </SocialIconLink>
               {/*  */}{" "}
               <SocialIconLink
-                href="https://www.linkedin.com/company/nolanengenharia/"
+                href="https://www.linkedin.com"
                 target="_blank"
                 aria-label="Linkedin"
               >

@@ -49,13 +49,14 @@ function Navbar({ toggle }) {
             <NavItem>
               <NavLinks
                 href="about"
+                to="about"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                {"navbar.about"}
+                {"Sobre"}
               </NavLinks>
             </NavItem>
 
