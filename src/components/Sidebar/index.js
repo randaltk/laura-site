@@ -18,19 +18,16 @@ function Sidebar({ isOpen, toggle }) {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink href="about" onClick={toggle}>
-            {".about"}
+            {"Sobre"}
           </SidebarLink>
           <SidebarLink href="discover" onClick={toggle}>
-            {"navbar.discover"}
-          </SidebarLink>
-          <SidebarLink href="services" onClick={toggle}>
-            {"navbar.services"}
+            {"Descubra"}
           </SidebarLink>
           <SidebarLink href="team" onClick={toggle}>
-            {"navbar.team"}
+            {"Detalhes"}
           </SidebarLink>
           <SidebarLink href="contact" onClick={toggle}>
-            {"navbar.contact"}
+            {"Contato"}
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

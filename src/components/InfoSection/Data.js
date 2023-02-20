@@ -29,3 +29,20 @@ export const homeObjTwo = {
   primary: true,
   darkText: true,
 };
+
+export const homeObjThree = {
+  id: "team",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: `Detalhes`,
+  headline: `Nosso Flat tem 4 apartamentos, sendo um deles uma cobertura sensacional.`,
+  description: `Estilo rústico, porém muito elegante, nossos apartamentos contam com total estrutura para hóspedes que querem sentir-se em casa. 
+  O espaço interno é todo otimizado com mobiliário funcional, as cozinhas são completas, inclusive com todos os artefatos para os hóspedes prepararem suas próprias refeições, sala com TV smart, camas confortáveis, ar condicionado, banheiro todo pastilhado, piso porcelanato, churrasqueira e vaga de garagem!`,
+  imgStart: false,
+  img: "https://res.cloudinary.com/aguadeira/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1676846730/jeri/WhatsApp_Image_2023-01-29_at_08.44.56_2_d9d4me.jpg",
+  alt: "Flet Jeriquaquara",
+  dark: true,
+  primary: true,
+  darkText: false,
+};

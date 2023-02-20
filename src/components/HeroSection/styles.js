@@ -1,5 +1,4 @@
 import styled from "styled-components";
-//import { GiSoundOff } from "react-icons/gi";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const HeroContainer = styled.div`
@@ -21,8 +20,8 @@ export const HeroContainer = styled.div`
     bottom: 0;
     background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.1) 0%,
-        rgba(0, 0, 0, 0.1) 80%
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;

@@ -28,7 +28,7 @@ function Footer() {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>{`adress`} </FooterLinkTitle>
+              <FooterLinkTitle>{`Endereço`} </FooterLinkTitle>
               <FooterLink href="/">
                 R. André de Leão, 138 - Vila Socorro São Paulo - SP 04762-030
               </FooterLink>

@@ -40,11 +40,10 @@ function Navbar({ toggle }) {
               alt="logoimage"
               src={process.env.PUBLIC_URL + "nolan.webp"}
             />
-          </NavLogo>
+          </NavLogo>{" "}
           <MobileIcon alt="mobilehamburguer" onClick={toggle}>
             <FaBars alt="mobilebars" />
           </MobileIcon>
-
           <NavMenu>
             <NavItem>
               <NavLinks
@@ -63,65 +62,44 @@ function Navbar({ toggle }) {
             <NavItem>
               <NavLinks
                 href="discover"
+                to="discover"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                {"navbar.discover"}
+                {"Descubra"}
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks
-                href="services"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                {"navbar.services"}
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
                 href="team"
+                to="team"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                {"navbar.team"}
+                {"Detalhes"}
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks
                 href="contact"
+                to="contact"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                {"navbar.contact"}
+                {"Contato"}
               </NavLinks>
             </NavItem>
-
-            {/* <select value={language} onChange={handleSelectChange}>
-              <option id="BRA" value="pt-BR">
-                PT
-              </option>
-
-              <option id="EN" value="en-US">
-                EN
-              </option>
-            </select>
-
-            */}
           </NavMenu>
         </NavbarContainer>
       </Nav>

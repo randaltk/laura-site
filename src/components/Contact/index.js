@@ -70,7 +70,7 @@ function Contact({
                     message="Olá! Gostaria de obter mais informações"
                     href="#"
                   >
-                    {`teste`}
+                    {`Iniciar Conversa`}
                     <SocialIconLink>
                       <FaWhatsapp />
                     </SocialIconLink>

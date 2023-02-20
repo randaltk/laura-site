@@ -35,7 +35,7 @@ function HeroSection() {
         <VideoBg
           alt="heroimage"
           src={
-            "https://res.cloudinary.com/aguadeira/image/upload/v1676744550/jeri/WhatsApp_Image_2023-01-29_at_08.44.57_3_lhwcco.jpg"
+            "https://res.cloudinary.com/aguadeira/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1676847543/jeri/WhatsApp_Image_2023-01-29_at_08.44.57_3_1_y9guzv.jpg"
           }
         />
       </HeroBg>
@@ -44,7 +44,7 @@ function HeroSection() {
         <HeroH1>{"Jeri Loucura"}</HeroH1>
 
         <HeroP>
-          {"Oportunidade para quem está planejando sair das grandes cidades! "}
+          {"Oportunidade para quem está planejando sair das grandes cidades!"}
         </HeroP>
 
         <motion.div
@@ -56,6 +56,7 @@ function HeroSection() {
           <HeroBtnWrapper>
             <Button
               href="about"
+              to="about"
               smooth={true}
               duration={500}
               spy={true}

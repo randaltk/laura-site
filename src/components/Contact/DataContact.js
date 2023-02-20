@@ -3,10 +3,9 @@ export const objContact = {
   lightBg: false,
   lightText: true,
   lightTextDesc: false,
-  topLine: `teste`,
-  headline: `teste`,
-  description: `teste`,
-
+  topLine: `ENTRE EM CONTATO !`,
+  headline: `Contato`,
+  description: `Nossa equipe esta preparada para atender a sua empresa de forma ágil, confiável e transparente.`,
   dark: false,
   primary: false,
   darkText: true,
