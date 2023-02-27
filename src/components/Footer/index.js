@@ -38,11 +38,11 @@ function Footer() {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo href="/" onClick={toggleHome}>
-              Jeri Loucura
+              Viva em Jeri
             </SocialLogo>
             <WebsiteRights>
               {" "}
-              Jeri Loucura © {new Date().getFullYear()} - {"footer.rights"}
+              Viva em Jeri © {new Date().getFullYear()} - {"footer.rights"}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

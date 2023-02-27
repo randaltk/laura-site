@@ -41,7 +41,7 @@ function HeroSection() {
       </HeroBg>
 
       <HeroContent>
-        <HeroH1>{"  Viva em Jeri"}</HeroH1>
+        <HeroH1>{"Viva em Jeri"}</HeroH1>
 
         <HeroP>
           {"Oportunidade para quem está planejando sair das grandes cidades!"}
