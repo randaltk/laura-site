@@ -66,7 +66,7 @@ function Contact({
                 <BtnWrap>
                   <ReactWhatsapp
                     style={wppStyle}
-                    number="55 11 98364-1032"
+                    number="55 11 980450215"
                     message="Olá! Gostaria de obter mais informações"
                     href="#"
                   >
